@@ -1,0 +1,14 @@
+numpy
+pandas
+openai
+yt_dlp
+youtube_transcript_api
+timeout-decorator
+dotenv
+langchain
+langchain-community
+langchain-qdrant
+qdrant-client
+streamlit
+markdownify
+httpx
