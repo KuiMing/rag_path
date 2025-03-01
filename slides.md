@@ -705,6 +705,19 @@ def get_response(
 
 <img src=media/QR_R_Ladies_Taipei.png width=50%></img><img src=media/QR_Ben_facebook.png width=50%></img>
 
+----
+
+<!-- .slide: data-background-iframe="https://www.accupass.com/event/2502151309037693459180" -->
+
+
+----
+
+<!-- .slide: data-background-iframe="https://www.accupass.com/event/2502151309037693459180" -->
+
+![](media/QR_global_ai_bootcamp.png)
+
+
+
 ---
 
 # Thank you~
