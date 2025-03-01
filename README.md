@@ -19,3 +19,5 @@ pip install requirements.txt
 ### Crawler with structured output
 - `espn_openai.py`: get commentaries from ESPN
 
+## Acknowledgements
+This project was inspired by [iamlazy](https://github.com/narumiruna/iamlazy).
