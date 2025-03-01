@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        html, body {
+            height: 100%; 
+            margin: 0;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            display: inline-block; /* Allows text-align to center it */
+            text-align: left; /* Aligns the text inside the pre block to the left */
+        }
+        .wrapper {
+            background: white; /* White background for the wrapper */
+            padding: 20px; /* Spacing around the content */
+            border-radius: 5px; /* Optional: Rounded corners for the wrapper */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for the wrapper */
+            text-align: center; /* Center text horizontally for the wrapper */
+            width: 90vw; 
+        }
+    </style>
+  </head>
+  <body>
+    <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>  
+    <div class="wrapper">
+        <div class="'content" >
+            <h1>Retrival Augmented Generation</h1>
+            <pre class="mermaid">
+              graph LR
+              A[User Query] -->|3. Query| B[Service]
+              B -->|4. Query| F[Embedding Model]-->|5. Query Vector| C[(Vector Store)]
+              B -->|7. Query + Text| D[GPT]
+              D -->|8. Answer| B
+              E[(Document Sources)] -->|1. Text| G[Embedding Model] -->|2. Text Vector|C
+              C --> E
+              C -->|6. Text| B
+              B -->|9. Answer| A
+              
+            </pre>
+        </div>
+    </div>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    </script>
+  </body>
+</html>
