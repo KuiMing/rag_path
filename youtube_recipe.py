@@ -18,7 +18,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from dotenv import find_dotenv, load_dotenv
 
 
-DEFAULT_LANGUAGES = ["zh-TW", "zh-Hant", "zh", "zh-Hans", "ja", "en", "ko"]
+DEFAULT_LANGUAGES = ["zh-TW", "zh-Hant", "zh", "zh-Hans", "ja", "en", "ko", "en-US"]
 
 
 ALLOWED_NETLOCS = {
