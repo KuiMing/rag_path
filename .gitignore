@@ -1,2 +1,4 @@
 *.DS_Store
 media/*
+.env
+__pycache__/
