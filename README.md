@@ -1,6 +1,10 @@
-## Slides
+# Global AI Bootcamp 2025
 
+## Slides
+### Taichung
 https://kuiming.github.io/rag_path/output/#/
+### Taipei
+https://kuiming.github.io/rag_path/output/microsoft_rag.html
 
 ## Code
 ### Please prepare the .env file
