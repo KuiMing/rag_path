@@ -1,9 +1,9 @@
 # Global AI Bootcamp 2025
 
 ## Slides
-### Taichung
+### Taichung (2025/03/01)
 https://kuiming.github.io/rag_path/output/#/
-### Taipei
+### Taipei (2025/03/15)
 https://kuiming.github.io/rag_path/output/microsoft_rag.html
 
 ## Code
