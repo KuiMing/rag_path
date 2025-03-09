@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        html, body {
+            height: 100%; 
+            margin: 0;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            display: inline-block; /* Allows text-align to center it */
+            text-align: left; /* Aligns the text inside the pre block to the left */
+        }
+        .wrapper {
+            background: #999999; /* White background for the wrapper */
+            padding: 20px; /* Spacing around the content */
+            border-radius: 5px; /* Optional: Rounded corners for the wrapper */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for the wrapper */
+            text-align: center; /* Center text horizontally for the wrapper */
+            width: 90vw; 
+        }
+    </style>
+  </head>
+  <body>
+    <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>
+        <BR>  
+    <div class="wrapper">
+        <div class="'content" >
+            <h1>Global Search</h1>
+            <pre class="mermaid">
+              flowchart LR
+
+              uq[User Query] --- .1
+              ch1[Conversation History] --- .1
+          
+              subgraph RIR
+                  direction TB
+                  ri1[Rated Intermediate<br/>Response 1]~~~ri2[Rated Intermediate<br/>Response 2] -."{1..N}".-rin[Rated Intermediate<br/>Response N]
+              end
+          
+              .1--Shuffled Community<br/>Report Batch 1-->RIR
+              .1--Shuffled Community<br/>Report Batch 2-->RIR---.2
+              .1--Shuffled Community<br/>Report Batch N-->RIR
+          
+              .2--Ranking +<br/>Filtering-->agr[Aggregated Intermediate<br/>Responses]-->res[Response]
+          
+          
+          
+               classDef green fill:#26B653,stroke:#333,stroke-width:2px,color:#fff;
+               classDef turquoise fill:#19CCD3,stroke:#333,stroke-width:2px,color:#fff;
+               classDef rose fill:#DD8694,stroke:#333,stroke-width:2px,color:#fff;
+               classDef orange fill:#F19914,stroke:#333,stroke-width:2px,color:#fff;
+               classDef purple fill:#B356CD,stroke:#333,stroke-width:2px,color:#fff;
+               classDef invisible fill:#fff,stroke:#fff,stroke-width:0px,color:#fff, width:0px;
+               class uq,ch1 turquoise;
+               class ri1,ri2,rin rose;
+               class agr orange;
+               class res purple;
+               class .1,.2 invisible;
+            </pre>
+        </div>
+    </div>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    </script>
+  </body>
+</html>
