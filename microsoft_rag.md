@@ -302,6 +302,7 @@ GraphRAG Workflow From Microsoft
 ## `Query`
 - Global Search
 - Local Search
+- Drift Search
 
 
 ----
@@ -353,6 +354,16 @@ GraphRAG Workflow From Microsoft
 
 <!-- .slide: data-background="media/local_search.png" -->
 
+
+----
+
+### `Drift Search`
+
+1. Global Search
+2. Local Search
+3. Output
+    - 按相關性排序
+    - 先給出主要結論，再列出支撐結論的各個要點
 
 
 ---
