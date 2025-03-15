@@ -838,6 +838,7 @@ def get_response(
 - GraphRAG 可以提升 RAG 的全局觀
 - 抓取 Youtube 字幕，快速了解影片內容
 - Markdown 格式幾乎到處都用得到
+- [RAG in Github Models](https://aka.ms/rag-in-github-signup)
 
 ----
 
