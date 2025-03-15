@@ -166,7 +166,7 @@ Query
 
 <!-- .slide: data-auto-animate -->
 
-## Query Rerighting
+## Query Rewriting
 
 Response
 
